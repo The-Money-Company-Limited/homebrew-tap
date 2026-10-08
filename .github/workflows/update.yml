@@ -33,7 +33,7 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
       - name: Install and test the candidate formula
-        if: steps.formula.outputs.changed == 'true'
+        if: steps.formula.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           brew tap the-money-company-limited/tap "$GITHUB_WORKSPACE"
           cp Formula/cool.rb "$(brew --repository the-money-company-limited/tap)/Formula/cool.rb"
