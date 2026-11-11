@@ -2,28 +2,28 @@
 class Cool < Formula
   desc "Create, publish, and manage Cool Computers from your terminal"
   homepage "https://www.cool.computer"
-  version "0.10.5515"
+  version "0.10.5519"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://www.cool.computer/cli/releases/0.10.5515/coolcomputer-0.10.5515-darwin-arm64.zip"
-      sha256 "ed0ec05cebc886131ffbba5ccefbf6b0f5e234c1e42a2d00b09cdba751fade0c"
+      url "https://www.cool.computer/cli/releases/0.10.5519/coolcomputer-0.10.5519-darwin-arm64.zip"
+      sha256 "44a938a21db97fb3f0c3c3f3f0ccf62989e88872a9fb115f552fd8301eb56514"
     end
     on_intel do
-      url "https://www.cool.computer/cli/releases/0.10.5515/coolcomputer-0.10.5515-darwin-x64.zip"
-      sha256 "e2403bffe5d3eb2b241c0ab7fa85b397b5ecfaaab40acbdf5269ab8b35fc615c"
+      url "https://www.cool.computer/cli/releases/0.10.5519/coolcomputer-0.10.5519-darwin-x64.zip"
+      sha256 "a89f8ab3d9b879b4fa7317bdb11a0808a382c01d3433bd9fd03f2f6f1a0cf8f7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://www.cool.computer/cli/releases/0.10.5515/coolcomputer-0.10.5515-linux-arm64.tar.gz"
-      sha256 "fbdf067df69fe736cf676e43222bcb5e430db70405effddd5c56326e2411f8a6"
+      url "https://www.cool.computer/cli/releases/0.10.5519/coolcomputer-0.10.5519-linux-arm64.tar.gz"
+      sha256 "19d82564c4685d5f8bceb7abfce29e7f32c42f6c5cbd671c0ceac6ee56af2d2e"
     end
     on_intel do
-      url "https://www.cool.computer/cli/releases/0.10.5515/coolcomputer-0.10.5515-linux-x64.tar.gz"
-      sha256 "601ba195b461d181bd9fc46d8d6b99afea6f4a06312a46e4181ebab83d5720ec"
+      url "https://www.cool.computer/cli/releases/0.10.5519/coolcomputer-0.10.5519-linux-x64.tar.gz"
+      sha256 "154fe4803539b2575b4018c33cc93dad1b7157dea892b2bcb6c036ff2450e2ff"
     end
   end
 
